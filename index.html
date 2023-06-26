@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Q&A Forum</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Q&A Forum</h1>
+    <button id="newQuestionBtn">Create new question</button>
+    <input type="text" id="searchInput" placeholder="Search for a question">
+  </header>
+  
+  <main>
+    <div id="questionList"></div>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Create New Question</h2>
+      <textarea id="questionInput" rows="4" placeholder="Type your question here"></textarea>
+      <input type="file" id="imageInput" accept="image/*" multiple>
+      <button id="submitQuestionBtn">Submit</button>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
