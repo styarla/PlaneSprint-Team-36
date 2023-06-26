@@ -1,107 +1,62 @@
-/* Add your custom styles here */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f2f2f2;
-  }
-  
-  h1 {
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
   }
   
-  button {
-    background-color: #4CAF50;
-    color: white;
+  header {
+    background-color: #f48024;
+    color: #fff;
     padding: 10px;
-    border: none;
-    cursor: pointer;
   }
   
-  input[type="text"] {
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+  h1, h2 {
+    margin: 0;
+    padding: 0;
   }
   
-  main {
+  #content {
     padding: 20px;
   }
   
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.4);
-  }
-  
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  textarea {
-    width: 100%;
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-  }
-  
-  input[type="file"] {
-    margin-bottom: 10px;
-  }
-  
-  button#submitQuestionBtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+  #questions {
+    margin-bottom: 20px;
   }
   
   .question {
-    margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
-    border-radius: 4px;
+    margin-bottom: 10px;
   }
   
-  .question p {
+  .question h3 {
     margin: 0;
   }
   
-  .answers {
-    margin-top: 10px;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
+  .question p {
+    margin: 5px 0;
   }
   
-  .code-block {
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-top: 10px;
-    white-space: pre-wrap;
-    font-family: 'Courier New', Courier, monospace;
+  #questionForm {
+    margin-top: 20px;
   }
   
-  .best-answer {
-    background-color: #d9ead3;
+  #questionForm textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #f48024;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e66a00;
   }

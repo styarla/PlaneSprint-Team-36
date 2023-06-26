@@ -1,0 +1,24 @@
+{
+  "name": "planesprint-team-36",
+  "version": "1.0.0",
+  "description": "qna forum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "styarla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styarla/PlaneSprint-Team-36.git"
+  },
+  "bugs": {
+    "url": "https://github.com/styarla/PlaneSprint-Team-36/issues"
+  },
+  "homepage": "https://github.com/styarla/PlaneSprint-Team-36#readme"
+}
