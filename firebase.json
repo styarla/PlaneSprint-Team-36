@@ -22,7 +22,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "site": "qna-1234",
+    "site": "qna-123",
     "public": "public",
     "ignore": [
       "firebase.json",
