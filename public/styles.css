@@ -1,0 +1,205 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  padding: 20px;
+}
+
+#questions {
+  margin-bottom: 20px;
+}
+
+.question {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.question h3 {
+  margin: 0;
+}
+
+.question p {
+  margin: 5px 0;
+}
+
+#questionForm {
+  margin-top: 20px;
+}
+
+#questionForm textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #f48024;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e66a00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.one {
+  background-color: whitesmoke;
+}
+
+.one .right {
+  float: right;
+}
+.one .right input {
+  border: none;
+  background: transparent;
+}
+.one nav {
+  background-color: black;
+  padding: 10px 100px;
+}
+.one .navbar-brand {
+  padding-right: 300px;
+}
+.one .nav-item i {
+  color: white;
+}
+.one .nav-item a {
+  color: white !important;
+}
+.one .nav-item {
+  padding: 0 20px;
+}
+
+/* Navbar Dropdown */
+.one .dropdown {
+position: relative;
+display: inline-block;
+}
+
+.one .dropdown-content {
+display: none;
+position: absolute;
+background: white;
+min-width: 160px;
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.one .dropdown-content a {
+color: black !important;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+/* Links inside the dropdown */
+.one .dropdown-content a {
+color: black !important;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Change color of dropdown links on hover */
+.one .dropdown-content a:hover {
+  background-color: gray;
+  color: white !important;
+}
+
+/* Show the dropdown menu on hover */
+.one .dropdown:hover .dropdown-content {
+  display: block;
+  background: white;
+}
+.one .content button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+.one .text-box {
+  background-color: white;
+  color: white;
+  padding: 5px 10px;
+}
+.text-box input {
+  width: 85%;
+  border: none;
+}
+.two {
+  padding: 50px 0;
+  background-color: rgb(248, 243, 243);
+}
+
+.two .nav.link a {
+  text-decoration: none;
+  color: black !important;
+}
+.two .nav-item:hover {
+  background-color: gray;
+}
+
+.card-box {
+  background-color: white;
+  padding: 10px;
+  margin: 20px 0 20px -15px;
+}
+.card-box img, .left-box-user .col-2 img {
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+}
+.card-box a {
+  color: black;
+  text-decoration: none;
+}
+.card-box a:hover {
+  color: #ff7361;
+  text-decoration: none;
+}
+.card-box .col-10 button {
+  border: none;
+  padding: 5px;
+  font-size: 12px;
+  color: white;
+}
+.card-box .col-10 p {
+  font-size: 14px;
+}
+.cards-footer span {
+  padding: 5px;
+}
+
+.load-button {
+  background-color: blue;
+  padding: 10px 0;
+  width: 100%;
+}
+.load-button button {
+  border: none;
+  background: transparent;
+  color: white;
+  margin-left: 35%;
+}
+.load-button:hover {
+  background-color: black;
+}
